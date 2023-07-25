@@ -1,0 +1,96 @@
+.container_pro{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: black;
+    width:55vw;
+}
+
+
+.one{
+    background-color: blue;
+    width:300px;
+    height: 300px;
+    margin-left: 0px;
+    transition: .5s ease-in;
+    
+}
+
+.two img{
+    /* background-image: url("hipo.gif");
+    background-size: cover; */
+    width:200px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+.three{
+    background-color: green;
+    width:300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.container_pro2{
+    position: absolute;
+    top:150px;
+    left: 240px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    /* background-color: black; */
+    /* width:55vw; */
+}
+
+.desc{
+    background-color: blue;
+    width:460px;
+    height: 300px;
+    transition: .5s ease-in;
+    
+}
+
+.desc1{
+    background-color: green;
+    margin-left: 50px;
+    width:400px;
+    height: 300px;
+    transition: .5s ease-in;
+    
+}
+
+.container_pro3{
+    position: absolute;
+    top:150px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    /* background-color: black; */
+    /* width:55vw; */
+}
+
+.desc2{
+    background-color: red;
+    /* margin-left: 20px; */
+    width:450px;
+    height: 300px;
+    transition: .5s ease-in;
+    
+}
+
+.cross{
+    /* margin-top: -10px; */
+    position: absolute;
+    top:50px;
+    left:470px;
+    /* margin-left: 440px; */
+    cursor: pointer;
+}

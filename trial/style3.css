@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+}
+
+.main_container{
+    margin: 6% 0 0 36%;
+    position: relative;
+    width:25%;
+}
+
+.image{
+    display: block;
+    width: 20vw;
+    height: 50vh;
+}
+
+.overlay{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    width: 20vw;
+    height: 50vh;
+    background-color: rgb(20, 19, 19,0.75);
+    overflow:hidden;
+    height: 0;
+    transition: .5s ease-in;
+}
+
+.main_container:hover .overlay{
+    height: 100%;
+}
+
+h1{
+    width:100%;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    text-align: center;
+    transform: rotate(-5deg)skew(X(-5deg));
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 70%;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}

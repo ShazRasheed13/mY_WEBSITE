@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 2vw 4vw;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="POST">
+            <h3>Get in touch</h3>
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="email" placeholder="Email id" id="email" required> 
+            <input type="text" placeholder="Phone no." id="phone" required> 
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "rasheedshaz03@gmail.com",
+                    Password : "ShazRasheed13@",
+                    To : 'rasheedshaz08@gmail.com',
+                    From : "duahub33@gmail.com",
+                    Subject : "Trial and Error SMTP",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+        }
+    </script> -->
+    
+</body>
+</html>
